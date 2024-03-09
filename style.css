@@ -608,4 +608,5 @@ nav .fa-solid{
     margin-bottom:17px;
     outline:none;
     border:1px solid #ccc;
+    box-sizing:border-box;
 }
