@@ -98,6 +98,7 @@ nav .header-logo{
 nav .fa-solid{
     display:none;
 }
+
 @media(max-width:700px){
   
     nav .header-logo{
@@ -567,11 +568,14 @@ nav .fa-solid{
 }
 
 
+
 /* Contact*/
+
 .location{
     width:80%;
     margin:auto;
     padding:90px 0;
+    
 }
 .location iframe{
     width:100%;
@@ -609,4 +613,15 @@ nav .fa-solid{
     outline:none;
     border:1px solid #ccc;
     box-sizing:border-box;
+}
+@media(max-width:424px){
+    .contact-col div h5{
+        font-size:14px;
+       color:lightcoral;
+    }
+    .contact-col div .fa-solid{
+        margin-left:0;
+        font-size:20px;
+    }
+        
 }
